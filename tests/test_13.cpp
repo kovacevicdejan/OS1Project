@@ -34,7 +34,6 @@ Semaphore* sleepSem = 0;
 
 void tick() {}
 
-
 class Znak : public Thread
 {
 public:
@@ -71,7 +70,6 @@ private:
 	
 };
 
-
 class Key : public Thread {
 public:
 	Key(int n) : Thread(), n(n) {}
@@ -106,7 +104,6 @@ private:
 	int n;
 	
 };
-
 
 int userMain(int argc, char* argv[]) {
 	mutex = new Semaphore(1);
