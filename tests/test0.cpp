@@ -86,9 +86,6 @@ int userMain(int argc, char* argv[])
 
 int main(int argc, char** argv) {
     inic();
-    //UserThread ut(argc, argv);
-	//ut.start();
-	//ut.waitToComplete();
     int res = userMain(argc, argv);
     restore();
     return res;
