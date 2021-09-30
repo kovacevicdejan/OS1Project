@@ -64,7 +64,6 @@ void tick()
 		*/
 }
 
-
 #include <iostream.h>
 
 Semaphore* mutex = 0;
@@ -98,7 +97,6 @@ private:
 
 };
 
-
 int userMain(int argc, char* argv[]) {
 	mutex = new Semaphore(1);
 
@@ -120,8 +118,6 @@ int userMain(int argc, char* argv[]) {
 	}
 
 	delete mutex;
-
-
 
 	return 0;
 }
