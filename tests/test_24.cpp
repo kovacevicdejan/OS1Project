@@ -8,8 +8,6 @@
 #include "flags.h"
 #include "semaphor.h"
 #include "usrthr.h"
-#include "event.h"
-#include "ivtentry.h"
 
 /**
  * USER11.CPP
