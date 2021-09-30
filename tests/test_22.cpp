@@ -6,10 +6,7 @@
 #include <STDARG.H>
 #include <stdlib.h>
 #include "flags.h"
-#include "semaphor.h"
 #include "usrthr.h"
-#include "event.h"
-#include "ivtentry.h"
 
 /**
  * USER9.CPP
