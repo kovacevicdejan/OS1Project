@@ -61,7 +61,6 @@ void TestThread::run()
 
 }
 
-
 int userMain(int argc, char** argv)
 {
 	syncPrintf("Test starts: %d threads.\n",n);
