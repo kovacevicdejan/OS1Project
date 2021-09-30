@@ -23,7 +23,6 @@ int syncPrintf(const char *format, ...)
  	 Test: idleThread
 */
 
-
 void tick(){}
 
 class TestThread : public Thread
