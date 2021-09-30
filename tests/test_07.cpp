@@ -42,10 +42,8 @@ void mutex_glb_wait(){
  }
 }
 
-
 #define intLock mutex_glb_wait();
 #define intUnlock mutex_glb = 1;
-
 
 class BoundedBuffer {
 public:
